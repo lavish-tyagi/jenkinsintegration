@@ -11,7 +11,7 @@ app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
   
 app.get('/', function(req, res){
-    res.send("server running")
+    res.send("server running and responding on browser")
 })
   
 app.listen(port, function(error){
